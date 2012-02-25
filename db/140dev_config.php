@@ -24,8 +24,8 @@ define('AJAX_URL', 'http://internetinnovation.com/140dev/');
 
 // Basic authorization settings for connecting to the Twitter streaming API
 // Fill in the values for a valid Twitter account
-define('STREAM_ACCOUNT', 'internetinnov8');
-define('STREAM_PASSWORD', 'passw0rd');
+define('STREAM_ACCOUNT', 'twitter_user');
+define('STREAM_PASSWORD', 'twitter_user_password');
 
 // MySQL time zone setting to normalize dates
 define('TIME_ZONE','America/New_York');
