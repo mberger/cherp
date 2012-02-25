@@ -13,7 +13,7 @@
 // Directory for db_config.php
 // original - define('DB_CONFIG_DIR', '/var/www/html/140dev/db/');
 //define('DB_CONFIG_DIR', '/Users/mberger/Documents/workspace/140dev/db/');
-define('DB_CONFIG_DIR', '/home/cominter/public_html/140dev/db/');
+define('DB_CONFIG_DIR', '/test/cominter/public_html/140dev/db/');
 
 // Server path for scripts within the framework to reference each other
 // original - define('CODE_DIR', '/var/www/html/140dev/');
