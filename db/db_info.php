@@ -1,6 +1,6 @@
 <?php
-	define ('DB', cominter_140);
-	define ('DB_USER', cominter_140);
-	define ('DB_PASSWORD', '140dev');
-	define ('DB_HOST', localhost);	
+	define ('DB', database_name);
+	define ('DB_USER', database_user_name);
+	define ('DB_PASSWORD', 'database_password');
+	define ('DB_HOST', database_host);	
 ?>
