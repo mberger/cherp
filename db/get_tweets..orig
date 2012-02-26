@@ -8,16 +8,16 @@
 * @license GNU Public License
 * @version BETA 0.10
 */
-require_once('/home/cominter/public_html/140dev/db/140dev_config.php');
+require_once('./140dev_config.php');
 
 // Extend the Phirehose class to capture tweets in the json_cache MySQL table
-require_once('/home/cominter/public_html/140dev/libraries/phirehose/phirehose.php');
+require_once('./libraries/phirehose/phirehose.php');
 class Consumer extends Phirehose
 {
   // A database connection is established at launch and kept open permanently
   public $oDB;
   public function db_connect() {
-    require_once('/home/cominter/public_html/140dev/db/db_lib.php');
+    require_once('./db_lib.php');
     $this->oDB = new db;
   }
 	
