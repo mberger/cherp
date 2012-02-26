@@ -13,14 +13,14 @@
 // Directory for db_config.php
 // original - define('DB_CONFIG_DIR', '/var/www/html/140dev/db/');
 //define('DB_CONFIG_DIR', '/Users/mberger/Documents/workspace/140dev/db/');
-define('DB_CONFIG_DIR', '/home/cominter/public_html/140dev/db/');
+define('DB_CONFIG_DIR', '/var/www/cherp/db/');
 
 // Server path for scripts within the framework to reference each other
 // original - define('CODE_DIR', '/var/www/html/140dev/');
-define('CODE_DIR', '/home/cominter/public_html/140dev/');
+define('CODE_DIR', '/var/www/cherp/140dev/');
 
 // External URL for Javascript code in browsers to call the framework with Ajax
-define('AJAX_URL', 'http://www.internetinnovation.com/140dev/');
+define('AJAX_URL', 'http://cherp.internetinnovation.com/cherp/');
 
 // Basic authorization settings for connecting to the Twitter streaming API
 // Fill in the values for a valid Twitter account
